@@ -68,9 +68,9 @@ export default function AuthForm({ mode }: AuthFormProps) {
 
   return (
     <form onSubmit={handleSubmit} className='space-y-4 max-w-md mx-auto'>
-      <h2 className='text-2xl font-bold text-center'>
+      {/* <h2 className='text-2xl font-bold text-center'>
         {mode === 'signin' ? 'Sign In' : 'Sign Up'}
-      </h2>
+      </h2> */}
 
       {mode === 'signup' && (
         <input
